@@ -17,8 +17,8 @@ const Navbar = () => {
       <ul className='flex w-full md:w-fit justify-between md:justify-center items-center  md:gap-20'>
         <li><Link href={"/"}>Home</Link></li>
         <li><Link href={"/service"}>Services</Link></li>
-        <li><Link href={"/contact"}>Contact</Link></li>
         <li><Link href={"/about"}>About</Link></li>
+        <li><Link href={"/contact"}>Contact</Link></li>
       </ul>
     </div>
   )
