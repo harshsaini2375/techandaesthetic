@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className='navbar  sticky top-0 bg-white z-10 flex flex-col md:flex-row justify-between items-start md:items-center py-1 md:py-0 h-fit md:h-[50px] px-2 md:px-20'>
       <div className="logoname ">
         <Link className='flex gap-1 md:gap-4 items-center justify-center' href={"/"}>
-          <div className="logo relative h-7 w-7 md:h-10 md:w-10">
+          <div className="logo relative h-5 w-5 md:h-10 md:w-10">
             <Image className='absolute object-contain' src={"/logo1.png"} alt='logo' fill={true} />
           </div>
           <h2 > Ingoude Company </h2>

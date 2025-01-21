@@ -6,7 +6,7 @@ const page = () => {
     return (
         <div>
             <Navbar />
-            <div className="contact text-white px-5 md:px-10 py-5 h-[93vh] w-[80vw] md:w-[40vw] bg-[#6a9097]">
+            <div className="contact text-white px-5 md:px-10 py-5 h-[84.4vh] md:h-[93vh] w-[80vw] md:w-[40vw] bg-[#72A0C1]  md:bg-[#6a9097] ">
                 <h1 className='font-bold text-4xl md:text-5xl mb-[10vh] '>Contact us</h1>
                 
                 <div className="location mt-10 flex  gap-4 md:gap-10  items-center">
@@ -21,7 +21,7 @@ const page = () => {
 
                 <div className="location mt-10 flex gap-4 md:gap-10  items-center">
                     <div className="icon  h-14 w-14  flex justify-center items-center rounded-full bg-white"><Image src={"/mail.svg"} alt='mail' height={30} width={30} /></div>
-                   <p className='w-[51vw] md:w-fit'>Akshayattri999&#64;gmail.com</p>
+                   <p className='w-[48vw] md:w-fit'>Akshayattri999&#64;gmail.com</p>
                 </div>
 
                 
